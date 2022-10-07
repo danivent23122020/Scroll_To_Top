@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+.section-content {
+    width: 100%;
+    height: auto;
+}
+.section-content a {
+    display: block;
+    margin: 50px 0;
+}
+.section-content a img {
+    display: block;
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box1-content {
+    height: 50vh;
+    background: url(./img/testimonial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+.box2-content {
+    width: 100%;
+    height: auto;
+}
+.box2-content img{
+    display: block;
+    width: 50%;
+    margin: 20px auto 0;
+}
+
+
+/**** Scroll top ****/
+.scrolltop {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    color: black;
+    background: #fff;
+    border-radius: 0.4rem;
+    z-index: 100;
+    transition: 0.4s;
+    visibility: hidden;
+    text-decoration: none;
+}
+
+.scrolltop:hover {
+    color: #fff;
+    background-color: #000000b0;
+    transition: 0.4s;
+}
+
+.scrolltop__icon {
+    font-size: 50px;
+}
+
+/* Show scrolltop */
+.active {
+    visibility: visible;
+}
