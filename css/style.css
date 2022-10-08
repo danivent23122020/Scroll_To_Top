@@ -20,7 +20,7 @@ html {
 
 .box1-content {
     height: 50vh;
-    background: url(./img/testimonial.jpg);
+    background: url(../img/testimonial.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
