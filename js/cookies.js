@@ -11,14 +11,14 @@ cancelCookie.addEventListener("click", function () {
 acceptCookie.addEventListener("click", function () {
     let d = new Date();
     d.setMinutes(2 + d.getMinutes());
-    document.cookie = "GymFitness=true; expires = ' + d + ';";
+    document.cookie = "TestCookies=true; expires = ' + d + ';";
     cookieModal.classList.remove("active");
 });
 
 // check cookie exist
 const checkCookie = () => {
     let input = document.cookie.split("=");
-    if (input[0] == "GymFitness") {
+    if (input[0] == "TestCookies") {
         cookieModal.classList.remove("active");
     } else {
         cookieModal.classList.add("active");
