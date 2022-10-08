@@ -5,7 +5,7 @@ window.addEventListener("scroll", function () {
     scroll.classList.toggle("active", window.scrollY > 300);
 });
 // scrollup
-const btn = document.querySelector(".scrollup");
+const btn = document.querySelector(".scrolltop");
 btn.addEventListener("click", () => {
     window.scrollTo({
         top: 0,
